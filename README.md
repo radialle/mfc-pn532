@@ -13,7 +13,7 @@ You should use this image directly in a physical computer, and not within a
 virtual machine.
 
 Use the `--device` flag when running in order to expose the PN532 device to
-the container. If its path is different from `/dev/ttyUSB`, you will have to
+the container. If its path is different from `/dev/ttyUSB0`, you will have to
 modify the `libnfc.conf` file.
 
 ### References
